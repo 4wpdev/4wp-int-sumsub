@@ -1,0 +1,45 @@
+/* SumSub checkbox styling */
+.forwp-sumsub-checkbox {
+    accent-color: #0073aa;
+    margin-right: 6px;
+}
+
+.sumsub-checkbox label {
+    font-weight: 500;
+    color: #222;
+}
+
+/* CF7 multi-step compatibility */
+#cf7mls-next-btn-cf7mls_step-2[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Disabled button styling */
+.sumsub-disabled {
+    opacity: 0.6 !important;
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+    background-color: #ccc !important;
+    border-color: #ccc !important;
+    color: #666 !important;
+}
+
+/* Gravity Forms specific disabled styling */
+.gform_button.sumsub-disabled,
+.gform_next_button.sumsub-disabled,
+.gform_previous_button.sumsub-disabled {
+    opacity: 0.5 !important;
+    background: #ddd !important;
+    border-color: #bbb !important;
+    color: #999 !important;
+    cursor: not-allowed !important;
+}
+
+/* Verification hint */
+.sumsub-disabled:after {
+    content: " (Complete verification first)";
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+}
