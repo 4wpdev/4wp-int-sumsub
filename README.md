@@ -43,7 +43,7 @@ For better user experience, use multi-step forms:
 - ✅ **Form submission blocking** until verification is completed
 - ✅ **Popup and modal compatibility**
 - ✅ **User-friendly interface** with status messages
-- ✅ **Contact Form 7 support** (legacy)
+- ⏳ Contact Form 7 support (near future...)
 
 ## Requirements
 
